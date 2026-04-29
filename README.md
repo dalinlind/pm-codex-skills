@@ -1,43 +1,136 @@
-# PM Codex Skills
+好，我直接给你一版**可以直接替换的高转化 README 终稿**（已经按产品化思路重写过，适合放在 GitHub 首页展示👇）
 
-面向产品经理工作的 Codex Skills 集合，适用于将产品想法、业务需求和评审材料转化为可交付的产品文档、原型、测试用例和数据分析方案。
+---
 
-这套 Skills 的目标是把零散需求快速转化为真实产品交付物，包括 PRD、HTML 原型、需求评审意见、测试用例、指标体系和数据看板方案。
+# 🚀 PM Codex Skills
 
-## Skills
+用 AI，把产品想法在 30 分钟内变成完整交付物。
 
-| Skill | 使用场景 | 主要输出 |
-| --- | --- | --- |
-| `pm-prd-writer` | 把想法、会议纪要、客户反馈、竞品功能整理成 PRD | 背景、目标、流程、功能清单、字段规则、权限、异常、验收标准 |
-| `pm-prototype-builder` | 根据 PRD 或页面需求生成企业级高保真原型 | 单文件 HTML、业务样例数据、基础交互、空态/异常态 |
-| `pm-reviewer` | 从多角色角度评审 PRD、原型或方案 | 风险清单、分角色评审意见、修改建议、待确认问题 |
-| `pm-testcase-writer` | 根据 PRD 生成测试用例和验收标准 | 功能用例、权限用例、边界用例、AI 用例、回归清单 |
-| `pm-data-analyst` | 设计指标体系、埋点方案、漏斗和看板 | 指标口径、维度拆解、埋点事件、看板结构、行动建议 |
+从一句需求 → PRD → 原型 → 测试用例 → 数据方案，全流程自动生成。
 
-## Directory Structure
+适用于：产品经理 / 创业者 / 业务负责人
+
+---
+
+## ✨ 你可以用它做什么？
+
+* 不写 PRD，也能快速出完整产品方案
+* 没设计资源，也能直接生成可用原型
+* 不用拉评审，也能获得多角色专业意见
+* 不会写测试，也能自动生成完整用例
+* 不懂数据，也能设计指标体系和看板
+
+👉 本质：**把产品经理的核心工作，全部结构化 + 自动化**
+
+---
+
+## 🧠 Skills（核心能力）
+
+### pm-prd-writer
+
+👉 输入一句需求 → 输出完整 PRD（可直接评审）
+
+---
+
+### pm-prototype-builder
+
+👉 输入 PRD → 生成单文件 HTML 高保真原型（可直接打开）
+
+---
+
+### pm-reviewer
+
+👉 一键生成多角色评审意见（研发 / 测试 / 设计 / 运营）
+
+---
+
+### pm-testcase-writer
+
+👉 自动生成测试用例 + 上线验收标准
+
+---
+
+### pm-data-analyst
+
+👉 输出指标体系 + 埋点方案 + 数据看板设计
+
+---
+
+## ⚡ 示例（真实效果）
+
+### 输入：
+
+> 做一个 AI 招聘职位发布功能
+
+---
+
+### 输出：
+
+#### 1️⃣ PRD（节选）
+
+* 背景 & 目标
+* 用户流程
+* 功能结构
+* 字段定义
+* 权限设计
+* 异常处理
+* 验收标准
+
+---
+
+#### 2️⃣ 原型
+
+👉 自动生成单文件 HTML（高保真，可直接预览）
+
+---
+
+#### 3️⃣ 测试用例
+
+👉 覆盖功能 / 权限 / 边界 / 异常场景
+
+---
+
+#### 4️⃣ 数据方案
+
+👉 转化漏斗 + 埋点设计 + 数据看板结构
+
+---
+
+## 🔄 推荐使用流程（从 0 到上线）
 
 ```text
-.
-├── AGENTS.md
-└── .agents/
-    └── skills/
-        ├── pm-prd-writer/
-        │   └── SKILL.md
-        ├── pm-prototype-builder/
-        │   └── SKILL.md
-        ├── pm-reviewer/
-        │   └── SKILL.md
-        ├── pm-testcase-writer/
-        │   └── SKILL.md
-        └── pm-data-analyst/
-            └── SKILL.md
+想法
+  ↓
+pm-prd-writer（生成 PRD）
+  ↓
+pm-reviewer（评审优化）
+  ↓
+pm-prototype-builder（生成原型）
+  ↓
+pm-testcase-writer（测试用例）
+  ↓
+pm-data-analyst（数据方案）
 ```
 
-## How to Use
+👉 一套完整产品闭环
 
-用 Codex App 打开这个项目目录，之后可以在任务里直接点名调用 Skill。
+---
 
-### 写 PRD
+## 🎯 适用场景
+
+* 🚀 创业项目从 0 → 1
+* 🧾 快速产出 PRD（评审 / 汇报 / 临时需求）
+* 🎨 无设计资源快速出原型
+* 🤖 AI 产品 Demo 快速验证
+* 🧑‍💼 面试作品集（强推荐）
+* 🏢 招聘 / SaaS / 平台型产品设计
+
+---
+
+## 🛠️ 如何使用
+
+1. 用 Codex App 打开本项目目录
+2. 在任务中直接调用 Skill，例如：
 
 ```text
 使用 pm-prd-writer skill，把下面需求写成 PRD：
@@ -45,56 +138,34 @@
 【粘贴需求】
 ```
 
-### 生成原型
+---
+
+## 📂 项目结构
 
 ```text
-使用 pm-prototype-builder skill，根据下面 PRD 生成一个单文件 HTML 高保真原型：
-
-【粘贴 PRD】
+.
+├── AGENTS.md
+└── .agents/
+    └── skills/
+        ├── pm-prd-writer/
+        ├── pm-prototype-builder/
+        ├── pm-reviewer/
+        ├── pm-testcase-writer/
+        └── pm-data-analyst/
 ```
 
-### 评审需求
+---
 
-```text
-使用 pm-reviewer skill，从研发、测试、设计、运营、销售、客户成功角度审查下面这份 PRD：
+## 💡 设计原则
 
-【粘贴 PRD】
-```
+* 输出默认使用中文
+* 原型默认生成单文件 HTML
+* UI 风格：企业级 / 极简 / 现代 / 浅色科技感
+* 所有输出以“可交付”为目标（不是草稿）
 
-### 生成测试用例
+---
 
-```text
-使用 pm-testcase-writer skill，根据下面 PRD 生成测试用例和上线验收标准：
+## 🔥 一句话总结
 
-【粘贴 PRD】
-```
+👉 这不是一个 Skill 集合，而是一条 **AI 产品生产流水线**
 
-### 设计数据分析方案
-
-```text
-使用 pm-data-analyst skill，为下面业务问题设计指标体系、埋点方案和数据看板：
-
-【描述业务问题】
-```
-
-## Recommended Workflow
-
-```text
-pm-prd-writer
-→ pm-reviewer
-→ pm-prototype-builder
-→ pm-testcase-writer
-→ pm-data-analyst
-```
-
-## Notes
-
-- `AGENTS.md` 是项目级总规则。
-- 每个 Skill 目录下的 `SKILL.md` 是具体能力说明。
-- 输出默认使用中文。
-- 原型默认生成单文件 HTML。
-- UI 风格默认企业级、极简、现代、浅色科技感。
-
-## License
-
-MIT
